@@ -247,7 +247,7 @@ void SSD1309::rectangleClear(hd_extent_t x0, hd_extent_t y0, hd_extent_t x1, hd_
 
     void SSD1309::lineClear(hd_extent_t x0, hd_extent_t y0, hd_extent_t x1, hd_extent_t y1, uint16_t width)
     {
-        #pragma GCC diagnostic ignored "-Wunused-variable"
+        #pragma GCC diagnostic ignored "-Wunused-but-set-variable"
         SSD1309_Bite_t pix;
         pix.bite = 0x00;
     }
